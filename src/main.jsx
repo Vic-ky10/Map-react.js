@@ -1,15 +1,19 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import Product from './components/productInfo'
-import Greetings from './components/Greetings'
+import App from './App'
+
+
+
+
+
 
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Greetings />
-    <Product/>
+<App />
+
   </StrictMode>,
 )

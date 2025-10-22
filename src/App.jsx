@@ -1,25 +1,15 @@
+import Product from "./components/ProductList";
+import UserList from "./components/UserList";
 
 
 function App(){
-  
-     const myName = "vicky"
-     const age = 22;
-     const multiply = (a,b) => a*b;
 
-
-    return (
-    <>
-    
-        <h1>{myName}</h1>
-     <p>My Age :{age}</p>
-
-     <p> a * b = { multiply(2,5)}</p>
-
- 
-   
-
-    </>
-    )
+return(
+ <>
+    <UserList />
+    <Product />
+ </>
+)
 }
 
 export default App;
