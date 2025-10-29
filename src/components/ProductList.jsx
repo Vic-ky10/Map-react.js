@@ -1,6 +1,6 @@
 
 
-function Product(){
+function Products(){
     const products =[
         { id: 1, name: "phone" , price: "$566"},
          { id: 1, name: "Laptop" , price: "$1200"},
@@ -20,4 +20,4 @@ function Product(){
      </div>
     )
 }
-export default Product
+export default Products
