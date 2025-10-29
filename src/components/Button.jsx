@@ -3,7 +3,7 @@ const Button =() =>{
         return (alert("clicked the message"))
     }
 
-   return  <button onClick={handle} >click</button>
+   return  <button onClick={ handle} >click</button>
 }
 
 const Appss=()=>{

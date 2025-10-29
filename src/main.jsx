@@ -7,6 +7,9 @@ import Apps from './components/Conditional-rendering.jsx/UserStatus'
 import Day from './components/Day'
 import Stylecard from './components/Stylecard'
 import Appss from './components/Button'
+import State from './State/State'
+import Movie from './State/State-Object'
+import States from './State/States'
 
 
 
@@ -15,9 +18,8 @@ import Appss from './components/Button'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-<Day isTime ="morning" />
-<Stylecard />
-<Appss />
+
+<States />
 
   </StrictMode>,
 )
