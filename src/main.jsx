@@ -10,6 +10,9 @@ import Appss from './components/Button'
 import State from './State/State'
 import Movie from './State/State-Object'
 import States from './State/States'
+import Intial from './State/Ex-1'
+import RandomNumber from './State/RandomNumber'
+import Example from './State/Example'
 
 
 
@@ -19,7 +22,9 @@ import States from './State/States'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
 
-<States />
+
+{/* <RandomNumber /> */}
+<Example />
 
   </StrictMode>,
 )

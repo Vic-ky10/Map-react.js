@@ -8,7 +8,7 @@ function States() {
     ])
 
     const handle = () => {
-
+ 
         // setMovies(movies.map(m => m.id ===1 ? {...movies, title: "kanguva"} : m));
         setMovies(movies.map(m => m.id === 1 ? { ...m, title: "kanguva" } : m));
     }
