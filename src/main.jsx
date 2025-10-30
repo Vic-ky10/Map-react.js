@@ -13,6 +13,9 @@ import States from './State/States'
 import Intial from './State/Ex-1'
 import RandomNumber from './State/RandomNumber'
 import Example from './State/Example'
+import Todo from './State/Todo'
+import Profile from './Profile'
+
 
 
 
@@ -24,7 +27,10 @@ createRoot(document.getElementById('root')).render(
 
 
 {/* <RandomNumber /> */}
-<Example />
+{/* <Example /> */}
 
+{/* <Todo /> */}
+
+<Profile />
   </StrictMode>,
 )
